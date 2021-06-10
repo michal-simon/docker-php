@@ -19,6 +19,7 @@ RUN apt-get update \
     zlib1g-dev \
     gpg-agent \
     sqlite3 \
+    autoconf \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
