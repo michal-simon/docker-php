@@ -20,6 +20,7 @@ RUN apt-get update \
     gpg-agent \
     sqlite3 \
     autoconf \
+    automake \
     libtool \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
